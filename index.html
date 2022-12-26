@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <title>Book And I</title>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Book And I<sup> (alpha)</sup></h1>
+      <h3>Your learning companion</h3>
+
+      <button class="demo" onclick="location.href='#about'">See demo</button>
+      <button onclick="location.href='#signup'">Sign up for waiting list</button>
+    </header>
+
+    <section id="about">
+      <h2>You're reading..<br>but are you learning effectively?</h2>
+      <p>With Book And I, you can personalize your education and improve your learning by:</p>
+      <ul>
+        <li>Summarizing your paper/article/book/etc</li>
+        <li>Asking spontaneously about it via text or speech</li>
+      </ul>
+
+      <button class="demo" style="margin: 20px 0px 100px 0px" onclick="location.href='https://storage.googleapis.com/lablab-video-submissions/clar54a4a0000356n3mordhvt%2Fraw%2Fsubmission-video-x-clar54a4a0000356n3mordhvt-clbo3b6fs00003b6uecv7t5hw.mp4'">See demo</button>
+
+      <h4 style="margin-bottom:0px; color:lightgrey">Fun fact 💡</h4>
+      <p style="font-size:1em; color:lightgrey">By reading passively, you only retain 10% of the information you study.<br>
+        But using Book And I, you can retain 40% more information by active discusion.<br>
+      </p>
+    </section>
+
+    <section id="signup">
+      <h2>Sign up now to get early access</h2>
+      
+      <form action="./signup.html">
+        <div class="contact_detail">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your name">
+        </div>
+        <div class="contact_detail">
+          <label for="email" >Email:</label>
+          <input type="text" id="email" name="email" required placeholder="Enter your email">
+        </div>
+        <div class="contact_detail">
+          <label for="phone-number">Phone Number:</label>
+          <input type="text" id="phone-number" name="phone-number" required placeholder="Enter your phone number">
+        </div>
+        <input type="submit" value="Get early access">
+      </form> 
+    </section>
+
+
+  </body>
+</html>
